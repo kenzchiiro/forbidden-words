@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #fff;
+  color: #475569;
+  margin: 0;
+  overflow: hidden;
+  user-select: none;
+}
+
+.disabled {
+  pointer-events:none; 
+  opacity:0.6;         
+}
+
+@keyframes slideUp {
+  0% {
+    opacity: 1;
+    margin-top: 200vh;
+    animation-timing-function: ease-out;
+  }
+  15% {
+    margin-top: -10vh;
+    animation-timing-function: ease-in;
+  }
+  18% {
+    margin-top: 5vh;
+    animation-timing-function: ease-out;
+  }
+  20% {
+    margin-top: 0px;
+    animation-timing-function: ease-in;
+  }
+  95% {
+    opacity: 1;
+    margin-top: 0px;
+    animation-timing-function: ease-in;
+  }
+  100% {
+    margin-top: 0px;
+    opacity: 1;
+    animation-timing-function: ease-out;
+  }
+}
