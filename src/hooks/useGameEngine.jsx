@@ -63,6 +63,7 @@ export const GameEngineProvider = ({ children }) => {
                 obj[player.getProfile().name] = words[randomWordsIndex]
                 setWordsOwner(obj,true)
                 words.splice(randomWordsIndex, 1);
+                player.setState("status","")
             });
         }
         return

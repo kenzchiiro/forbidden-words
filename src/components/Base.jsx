@@ -20,7 +20,6 @@ function Base() {
         style["backgroundColor"] = color;
 
         return (
-
             <div className="w-fit flex flex-col carousel-item border-4 rounded-xl border-slate-600" style={style}>
                 <div className="flex w-64 justify-start ml-1 items-start font-extrabold text-lg md:text-1xl text-neutral text-left z-40">
                     <div className="flex space-x-2 m-2">
