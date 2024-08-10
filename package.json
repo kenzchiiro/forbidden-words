@@ -9,7 +9,7 @@
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "predeploy": "pnpm run build",
-    "deploy": "gh-pages -d dist",
+    "deploy-game": "gh-pages -d dist",
     "postdeploy": "echo 'Deployment complete!'"
   },
   "dependencies": {
